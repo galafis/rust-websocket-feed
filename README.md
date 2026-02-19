@@ -159,6 +159,22 @@ async fn main() {
 └─────────────────────────────────────────────────────────┘
 ```
 
+```mermaid
+flowchart TD
+    A1([Binance\nWebSocket API]) --> B
+    A2([Coinbase\nWebSocket API]) --> B
+    A3([Kraken\nWebSocket API]) --> B
+    B[Gerenciador de Conexões\nAuto-Reconnect · Ping/Pong] --> C[Manipulação de Mensagens\nParse JSON · Validação · Roteamento]
+    C --> D[Normalização de Dados\nFormato Unificado · Timestamps · Volume]
+    D --> E{Buffer Concorrente\nRwLock · 1000 registros}
+    E --> F1[Consumer: Trading Bot\nAlgorithmic Orders]
+    E --> F2[Consumer: Price Monitor\nArbitrage Detection]
+    E --> F3[Consumer: Data Storage\nHistorical Recording]
+    F1 --> G([Execução de Ordens & Análise])
+    F2 --> G
+    F3 --> G
+```
+
 ### 📊 Performance
 
 - **Latency**: < 100μs message processing
