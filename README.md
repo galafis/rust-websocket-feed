@@ -4,6 +4,7 @@
 [![Tokio](https://img.shields.io/badge/Tokio-Async-green.svg)](https://tokio.rs/)
 [![WebSocket](https://img.shields.io/badge/WebSocket-Real--Time-blue.svg)](#)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg?logo=docker)](Dockerfile)
 
 [English](#english) | [Português](#português)
 
