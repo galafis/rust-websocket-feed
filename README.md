@@ -1,10 +1,9 @@
 # ⚡ Rust WebSocket Feed Handler
 
-[![Rust](https://img.shields.io/badge/Rust-1.90-orange.svg)](https://www.rust-lang.org/)
-[![Tokio](https://img.shields.io/badge/Tokio-Async-green.svg)](https://tokio.rs/)
-[![WebSocket](https://img.shields.io/badge/WebSocket-Real--Time-blue.svg)](#)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg?logo=docker)](Dockerfile)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![License-MIT](https://img.shields.io/badge/License--MIT-yellow?style=for-the-badge)
+
 
 [English](#english) | [Português](#português)
 
